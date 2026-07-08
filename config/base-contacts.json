@@ -19,5 +19,19 @@
         "email": "tainer80@hotmail.com",
         "favoriteColor": "Purple",
         "birthday": "1964-11-19"
+    },
+    {
+        "firstName": "Doug",
+        "lastName": "Stokes",
+        "email": "No Email on File",
+        "favoriteColor": "Black",
+        "birthday": "1960-03-17"
+    },
+    {
+        "firstName": "Nathaniel",
+        "lastName": "Stokes",
+        "email": "Nathaniel.Stokes35@gmail.com",
+        "favoriteColor": "Green",
+        "birthday": "1994-05-17"
     }
 ]

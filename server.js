@@ -1,12 +1,16 @@
 const express = require('express');
 const path = require('path');
-const app = express();
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
 
+const app = express();
 const routes = require('./routes');
 
 app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument)); // Swagger Documentation route
 
 app.use('/', routes);
 
