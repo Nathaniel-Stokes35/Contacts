@@ -98,3 +98,5 @@ router.delete('/api/contacts/:id', async (req, res) => {
 });
 
 module.exports = router;
+
+// Just a change to test my .gitignore
